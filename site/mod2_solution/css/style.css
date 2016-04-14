@@ -3,13 +3,21 @@
 	margin: 0px;
 }
 
+body {
+	font-family: sans-serif;
+}
+
 h1 {
+
 	text-align: center;
-	margin-top: 15px;
-	margin-bottom: 15px;
+	font-size: 36px;
+	margin-top: 25px;
+	margin-bottom: 25px;
 }
 
 h2 {
+	color: #ffffff;
+	text-shadow: 2px 2px 8px #000000;
 	border: 1px solid black;
 	text-align: center;
 	margin-top: -13px;
@@ -24,21 +32,22 @@ h2 {
 
 .row {
 	width: 100%;
-	padding-left: 15px;
+	padding-left: 25px;
 }
 
+/*This is the class for the div that wraps the menu sections (h2 and p)*/
 .section {
-	background-color: gray;
+	background-color: #d0d6dc;
 	border: 1px solid black;
 	position: relative;
-	margin-right: 15px;
+	margin-right: 25px;
 	margin-left: auto;
-	margin-bottom: 15px;
+	margin-bottom: 25px;
 	padding: 20px;
 	padding-top: 50px;
 	overflow: hidden;
-	/*min-width: 300px;*/
-	/*min-height: 200px;*/
+	min-width: 300px;
+	min-height: 200px;
 }
 
 /*Large Device layout*/
@@ -127,4 +136,16 @@ h2 {
   .col-md-12 {
     width: 100%;
   }
+}
+
+#sushi {
+	background-color: #008000;
+}
+
+#beef {
+	background-color: #ff0000;
+}
+
+#chicken {
+	background-color: #0000ff;
 }
