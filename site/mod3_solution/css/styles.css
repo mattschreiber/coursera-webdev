@@ -25,3 +25,8 @@ body {
 	margin-bottom: 0;
 	line-height: .75;
 }
+
+#nav-list a {
+	color: #fff;
+	font-size: 1.2em;
+}
