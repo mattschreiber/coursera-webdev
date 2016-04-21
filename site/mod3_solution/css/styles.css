@@ -13,7 +13,7 @@ body {
 	font-weight: bold;
 	margin-top: 0;
 	margin-bottom: 0;
-	margin-left: 15px;
+	margin-left: 15px; /* needs to match #main-content .section*/
 	line-height: .75;
 
 }
@@ -42,9 +42,6 @@ body {
 	font-size: 1.2em;
 }
 /*Main Content*/
-#main-content {
-	margin: 0px;
-}
 #main-content h2 {
 	font-size: 2em;
 	font-weight: bold;
@@ -55,7 +52,7 @@ body {
 	padding-right: 25px;
 	padding-top: 15px;
 	min-height: 1000px;
-	margin-left: 15px;
+	margin-left: 15px; /*this matches .navbar-brand h1 */
 	margin-right: 15px;
 }
 @media (max-width: 767px) {
