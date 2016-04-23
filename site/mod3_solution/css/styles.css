@@ -59,13 +59,25 @@ body {
 	font-weight: bold;
 }
 @media (max-width: 767px) {
+	.navbar {
+		background-color: #fff;
+		border-radius: 0;
+		border: 0;
+	}
+	.navbar-header {
+		background-color: #800080;
+		border-radius: 0;
+		border: 1px solid #000;
+	}
 	.navbar-default .navbar-collapse {
 		background-color: #008000;
 		padding-left: 0px;
 		padding-right: 0px;
-    	border-top: 2px solid #000;
+    	border-top: 1px solid #000;
     	border-right: 2px solid #000;
     	border-left: 2px solid #000;
+    	border-bottom: 2px solid #000;
 	}
-}
+
+1
 
